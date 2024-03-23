@@ -43,7 +43,7 @@ html {
     margin-top: 0%;
     margin-left: 0%;
     margin-right: 0;
-    margin-bottom: 2;
+    margin-bottom: 10%;
   
   }
   
@@ -288,8 +288,32 @@ html {
   
   }
   
+
+  .iframe-container {
+    display: flex;
+    justify-content: center; /* Center the iframe horizontally */
+    align-items: center; /* Center the iframe vertically */
+    padding-bottom: 2%; /* Aspect ratio of 16:9 (height/width * 100%) */
+    position: relative;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: auto;
+    
+  }
+  
+  /* .iframe-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 50%;
+  } */
   
   
+
   
   /* Part 2: Flexbox */
   
