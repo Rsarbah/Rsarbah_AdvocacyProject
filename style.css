@@ -1,0 +1,312 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+  
+  .important {
+    color: blueviolet;
+    font-family: sans-serif;
+    font-size: 16px;
+  
+  }
+  
+  
+  #interesting {
+    color: blue;
+    font-family: sans-serif;
+  
+  
+  }
+  
+  
+  /*
+    Add style rules for the body of a your webpage.
+    Note: These rules will be applied to all elements.
+  */
+  body {
+  
+    /* Add a background color or image */
+    background-color: white;
+    background-image: url('');
+  
+    /* Customize the font, size, and color for text*/
+    font-family: sans-serif;
+    font-size: 16px;
+    color: black;
+  
+    /* Adjust the padding and margins */
+    padding-top: 0%;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-bottom: 1%;
+  
+    margin-top: 0%;
+    margin-left: 0%;
+    margin-right: 0;
+    margin-bottom: 2;
+  
+  }
+  
+  
+  
+  /*
+    Style Text: Add style rules for any headings (h1-6),
+    paragraphs and links
+  */
+  
+  h1 {
+    color: blue;
+    font-family: serif;
+    text-align: center;
+  }
+  
+  h2 {
+    color: blue;
+    font-family: serif;
+    text-align: center;
+  }
+  
+  h3 {
+    color: blue;
+    font-family: serif;
+    text-align: center;
+  }
+  h4 {
+    color: blue;
+    font-family: serif;
+    text-align: left;
+  }
+  
+  p {
+    color: black;
+    font-family: serif;
+  }
+  
+  button:link {
+    color: blue;
+  }
+  
+  button:visited {
+    color: purple;
+  }
+  
+  button:hover {
+    color: green;
+  }
+  
+  button:active {
+    color: red;
+  }
+  
+  
+  /*
+    Style Lists: Styles added to the ol or ul style rulesets affect the entire
+    list, while styles added to the li style ruleset affect individual list items
+  */
+  
+  
+  ol {
+    color: black;
+    font-family: serif;
+  }
+  
+  ol li {
+    color: black;
+    font-family: serif;
+  }
+  
+  
+  ul {
+    color: black;
+    font-family: serif;
+  }
+  
+  ul li {
+    color: black;
+    font-family: serif;
+  }
+  
+  
+  /*
+    Style Buttons: Add style rules for any headings (h1-6),
+    paragraphs and links
+  */
+  
+  button {
+    background-color: #008CBA;
+    border: none;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    padding: 15px 32px;
+    cursor: pointer;
+  
+  }
+  
+  img {
+    width: 50%;
+    height: 50%;
+    border: 5%;
+    padding: 2%;
+  }
+  
+  
+  
+  
+  /* Select and style elements by class name or ID */
+  
+  
+  /* Example: This styles elements with class="header"*/
+  .header-container {
+    display: flex;
+    flex-direction: column;
+    background-color: lightcyan;
+    margin-top: 0%;
+    margin-bottom: 2%;
+    padding: 2%;
+    border: 2%;
+    border-color: black;
+    text-align: center;
+    position: relative;
+  }
+  
+  
+  /* Example: This styles an element with an id="header-img" */
+  #header-img {
+    margin-left: 0%;
+    margin-right: 100%;
+    width: 50px;
+    max-width: 50%;
+    background-color: white;
+  }
+  
+  #header-item:nth-of-type(1) {
+    text-align: center;
+    width: 50%;
+    height: 50%;
+  
+  
+  }
+  
+  #header-item:nth-of-type(2) {
+    text-align: center;
+    width: 50%;
+    height: 50%;
+  
+  }
+  
+  .header-button {
+    background-color: indigo;
+    border: none;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    padding: 15px 32px;
+    cursor: pointer;
+  }
+  
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: lightcyan;
+  
+  }
+  
+  
+  /* Part 1: Navbar */
+  .navbar {
+    background-color: lightcyan;
+    color: blue;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    margin-bottom: 2%;
+    margin-left: 0%;
+    margin-right: 50%;
+    padding: 3%;
+    border: 5%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  /* General style rule set for all items in ul */
+  .navbar ul {
+    list-style-type: none;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 70%;
+    margin-bottom: 5%;
+
+  
+  
+  }
+  
+  /* Style rule set for individual li */
+  .navbar ul li {
+    float: right;
+    margin: 10px;
+    position: center;
+
+  }
+  
+  
+  /* Style rule set for individual li link */
+  .navbar ul li a {
+    display: block;
+    font-family: sans serif;
+    color: black;
+    font-size: 16px;
+    text-decoration: none;
+    text-align: center;
+    padding: 3%;
+  }
+  
+  /* Style rule set for hovered link */
+  .navbar ul li a:hover {
+    font-weight: bold;
+    color: red;
+  
+  }
+  
+  
+  
+  
+  /* Part 2: Flexbox */
+  
+  /* General style rule set for flex container */
+  .flex-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  
+  /* Style rules for flex-item 1 */
+  .flex-item:nth-of-type(1) {
+    flex: 1;
+  }
+  
+  /* Style rules for flex-item 2 */
+  .flex-item:nth-of-type(2) {
+    flex: 2;
+  }
+  
+  /* Style rules for flex-item 3 */
+  .flex-item:nth-of-type(3) {
+    flex: 3;
+  }
+  
+  
+  /* Style set for all flex-items */
+  .flex-item {
+    background: white;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+  }
