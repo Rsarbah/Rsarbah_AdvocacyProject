@@ -94,10 +94,24 @@ html {
     color: green;
   }
   
-  button:active {
+  a:active {
     color: red;
   }
+  a:link {
+    color: blue;
+  }
   
+  a:visited {
+    color: purple;
+  }
+  
+  a:hover {
+    color: green;
+  }
+  
+  a:active {
+    color: red;
+  }
   
   /*
     Style Lists: Styles added to the ol or ul style rulesets affect the entire
@@ -223,11 +237,11 @@ html {
     position: fixed;
     top: 0;
     width: 100%;
-    margin-bottom: 2%;
+    margin-bottom: 0%;
     margin-left: 0%;
-    margin-right: 50%;
+    margin-right: 0%;
     padding: 3%;
-    border: 5%;
+    border: 1%;
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -241,7 +255,7 @@ html {
     position: fixed;
     top: 0;
     width: 70%;
-    margin-bottom: 5%;
+    margin-bottom: 10%;
 
   
   
@@ -250,7 +264,7 @@ html {
   /* Style rule set for individual li */
   .navbar ul li {
     float: right;
-    margin: 10px;
+    margin: 2%;
     position: center;
 
   }
@@ -283,7 +297,8 @@ html {
   .flex-container {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 20px;
+
   }
   
   
